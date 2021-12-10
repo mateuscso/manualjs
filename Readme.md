@@ -54,4 +54,52 @@
 
 ## AULA 2 - BASICO DO VSCODE
 
-- 
+- Declarações de Variáveis (const, let, var)
+  - Tipos
+    - String
+      - Conjunto de caracteres que sempre estarão entre aspas
+  ```javascript
+  const frase = "Brasília, capital do Brasil"
+  ```
+    - Number 
+      - Qualquer valor numérico 
+  ```
+  123,456
+  ``` 
+    - Boolean
+      - É um tipo de dado que só pode ser dois valores 1 ou 0, verdadeiro ou falso.
+  ```
+  1>0 true
+  1<0 false
+  ``` 
+    - Null
+      - Nulo é um valor vazio, ou seja, é uma variável que existe com o valor vazio.
+  ```javascript
+  let exempleNull = [ahsudhasd]
+  exempleNull = null
+  ```  
+    - Undefined
+      - É uma variável que o código não reconhece, ou seja, não foi declarada no código 
+  ```javascript
+  
+  ``` 
+    - Object
+      - É uma entidade independente, com propriedades e tipos. Compare-o com uma xícara, por exemplo. Uma xícara é um objeto, com propriedades. Uma xícara tem uma cor, uma forma, peso, um material de composição, etc. Da mesma forma, objetos em JavaScript podem ter propriedades, que definem suas características. 
+      - Usa-se chave
+      - DECLARAÇÃO
+       ```javascript
+       const caneco = {name: "canecacio", size: "500"}
+       ```
+      - CHAMADA DA PROPRIEDADE
+      ```javascript
+      console.log(caneco.size)
+      console.log(caneco.name)
+      // estou dando um log só na propriedade size ou name, dentro de caneco
+      ``` 
+    - Array
+      - É usado para armazenar um conjunto de elementos de qualquer tipo em uma variável
+      - Usa-se colchete
+  ```javascript
+  const arrayexample = ["texto", caneco.size ]
+  const arrayexample = [elemento1, 25, false]
+  ``` 
