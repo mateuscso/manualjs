@@ -55,6 +55,21 @@
 ## AULA 2 - BASICO DO JavaScript
 
 - Declarações de Variáveis (const, let, var)
+  - Const
+    - Não pode ser mudada e nem declarada sem valor
+  ```javascript
+  const name = ["Mateus"]
+  const size = ["gigas"]
+  ```
+  - Let
+    - Pode ser mudada e declarada sem valor
+  ```javascript
+  let name = ["Mateus"]
+  let size = ["monstrao"]
+  ```
+  - Var
+    - Possui caracteristicas da const e let, mas esta caindo em desuso.   
+  
   - Tipos
     - String
       - Conjunto de caracteres que sempre estarão entre aspas
