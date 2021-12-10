@@ -52,7 +52,7 @@
   ```
 
 
-## AULA 2 - BASICO DO VSCODE
+## AULA 2 - BASICO DO JavaScript
 
 - Declarações de Variáveis (const, let, var)
   - Tipos
