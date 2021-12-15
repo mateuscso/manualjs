@@ -118,3 +118,114 @@
   const arrayexample = ["texto", caneco.size ]
   const arrayexample = [elemento1, 25, false]
   ``` 
+
+- OPERAÇÕES ARITMÉTICAS
+  - \+  (soma)
+  - \-  (subtração)
+  - \*  (multiplicação)
+  - /   (divisão)
+  - %   (é a sobra da divisão)
+  - \** (Elevado)
+  - \** (1/2) (raiz quadrada do numero)
+
+
+- OPERAÇÕES COMPARADORAS
+  - = (atribui um valor a uma variável)
+  - == (compara se o valor é igual ao outro)
+  - === (compara o valor e o tipo da variável)
+  ```javascript
+    9 ** (1 / 2)  // 3 ( Raiz quadrada de 9)
+    9 ** 1 / 2  // 4.5 ( 9 elevado a 1, divido por 2)
+    9 % 3  // 0 (9 dividido por 3, sobra 0)
+    10 % 3  // 1 ( 10 divido por 3, sobra 1)
+    
+    2 == 2  // true ( compara 2 por 2)
+    2 == 3  // false (compara 2 por 3)
+    2 === 2  // true ( compara tanto o valor quanto o tipo)
+    2 === 3  // false ( compara tanto o valor quanto o tipo)
+    2 == "2"  // true (compara 2 com o valor 2, mas são tipos diferentes)
+    2 == "3"  // false (compara 2 com o valor 3, mas são tipos diferentes)
+    2 === "2"  // false 
+
+    true === "true"  // false
+    true == "true"  // false
+    false == "false"  // false
+    false === "false"  // false
+
+    "hakjsda"  // hakjsda
+    !!0  // false
+    
+  ```
+  - !== (diferente)
+  ```javascript
+    2 != "2" // false 
+    2 != "3" // true 
+  ```
+  - !=== ()
+  ```javascript
+    2 !=== "2" // true ( compara tanto o numero quanto o tipo) 
+  ``` 
+  - < (menor)
+  - \> (maior)
+  - <= (menor ou igual)
+  - \>= (maior ou igual)
+
+- OPERAÇÕES LOGICAS
+  - && e
+  ```javascript
+  0 * 0 -> 0
+  0 * 1 -> 0
+  1 * 0 -> 0
+  1 * 1 -> 1
+  ```
+  - || ou
+  ```javascript
+  0 + 0 -> 0
+  0 + 1 -> 1
+  1 + 0 -> 1
+  1 + 1 -> 1
+  ```
+  - ! not (inverte o valor do elemento)
+  ```javascript
+  !0 -> 1
+  !1 -> 0
+  ```
+
+- BLOCOS
+
+- FUNÇÕES
+  - Declaração 1
+  ```javascript
+    function exemplo(atributo) {
+      // o que a função vai fazer
+    }
+    // atributo é o valor que recebo quando chamo a função (não necessariamente precisa ter)
+  ```
+  - Declaração 2
+  ```javascript
+    const exemplo = (atributo) => {
+      // o que a função vai fazer
+    }
+    
+  ```
+  - Chamada
+  ```javascript
+  console.log(exemplo)// somente pego o valor que ta guardado dentro dela//
+  console.log(exemplo()) // a função sendo executada
+  ```
+  - Retorno
+  ```javascript
+  //PRIMEIRA FORMA
+  function exemplo () {
+    return "deucerto"
+  }
+
+  console.log(exemplo()) // deucerto
+
+  // SEGUNDA FORMA
+  const exemplo = () => {
+  return "deucerto";
+  };
+
+  console.log(exemplo()); // deucerto
+  ```
